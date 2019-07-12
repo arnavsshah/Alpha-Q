@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Spoiler blocker</title>
+        <script src="jquery-3.4.1.min.js"></script>
+        <script src="popup.js"></script>
+        <style>
+        #movieList, #add_input, #clear_input{
+            margin-top: 5px;
+        }
+        #clear_input{
+            margin-bottom: 5px;
+        }
+        #movieList{
+            margin-bottom: 80px;
+        }
+        body{
+            background-color: rgb(10, 156, 214);
+            min-width: 500px;
+            max-width: 500px;
+        }
+        #horizontal{
+            margin-left: 8px;
+            margin-right: 8px;
+            margin-bottom: 15px;
+            background-color: white;
+            padding-left: 5px;
+            padding-right: 5px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+            border-radius: 3px;
+        }
+
+        </style>
+        
+    </head>
+
+    <body>
+        <div id="horizontal">
+            <h1>Spoiler blocker</h1>
+            <hr>
+            <h3>Input keywords:</h3>
+            <input type="text" id="text_input">
+            <input type="button" id="add_input" value="Add keywords">
+            <h3>The following keywords are added:
+                
+            </h3>
+            <h3><span id="show_input" width="400px"></span></h3>
+            <hr>
+            <input type="button" id="clear_input" value="Remove keywords">
+            <hr>
+
+            <select name="movies" id="movieList">
+                <option value="Select" id="a" hidden>Select a movie</option>
+                <option value="Shawshank Redemption" id="b">Shawshank Redemption</option>
+                <option value="Shutter island" id="c">Shutter island</option>
+                <option value="Fight club" id="d">Fight club</option>
+                <option value="Prestige" id="e">Prestige</option>
+            </select>
+
+            <input type="button" value="Add movie" id="addMovie">
+        </div>
+    </body>
+</html>
