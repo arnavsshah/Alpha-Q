@@ -27,7 +27,7 @@ $(function(){
     });
 
     $("#clear_input").click(function(){
-        newArray = null;
+        newArray = ["spoiler", "alert"];
         chrome.storage.sync.set({'words': newArray}, function(){
             var notifOptions = {
                     type: "basic",
