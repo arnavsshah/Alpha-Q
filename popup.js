@@ -1,5 +1,6 @@
 $(function(){
-
+    
+    $('#show_input').text("spoiler", "alert");
     chrome.storage.sync.get(['words'],function(array){
         $('#show_input').text(array.words);
     });
