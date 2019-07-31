@@ -51,16 +51,23 @@ $(function(){
             var addKeyword=[];
             switch(selectedMovie){
                 case "b":
-                    addKeyword = ["Rock Hammer", "Red", "escapes", "hole", "mexico", "arrested"];
+                    addKeyword = ["Rock Hammer", "Red", "escapes", "hole", "mexico", "arrested", "andy","wrongful imprisonment","escape from prison",
+                    "prison","suicide","prison cell search","infidelity","prison yard","rita hayworth","prison guard","imprisonment","suicide by gunshot","solitary confinement","shawshank","basalt","carving"];
                     break;
                 case "c":
-                    addKeyword = ["andrew", "mental", "teddy", "edward"];
+                    addKeyword = ["andrew", "mental", "teddy", "edward","mental asylum","cave","memory","anagram","psycho"];
                     break;
                 case "d":
-                    addKeyword = ["split", "insomnia"];
+                    addKeyword = ["split", "insomnia","ikea","suicide","consumerism","alter ego","sexual desire","mental instability","alienation","violence","testicular cancer","schizophrenia","rage","shot in head","death","identity"];
                     break;
                 case "e":
-                    addKeyword = ["twin", "dies", "tesla"];
+                    addKeyword = ["twin", "dies", "tesla","magician","diary","murder","death","canary","generator","lookalike","pantaloon","englishman","sledgehammer","fame","watch","rubber ball"];
+                    break;
+                case "f":
+                    addKeyword = ["space travel", "wormhole","astronaut","black hole","morse code","morse","dust storm","giant wave","tidal wave","time dilation","cryogenic","embryo","escape pod",""];
+                    break;
+                case "g":
+                    addKeyword = ["recycling robot", "pollution", "soil","plant"]
                     break;
             };
 
